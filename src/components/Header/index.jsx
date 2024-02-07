@@ -1,9 +1,11 @@
+import { Link } from "react-router-dom";
 import "./style.scss";
+import { routeNames } from "../../navigation/routeNames";
 
 export const Header = () => {
   return (
     <header>
-      <span>header</span>
+      <Link to={routeNames.information}>info</Link>
     </header>
   );
 };
