@@ -7,6 +7,10 @@ import { CategoryPage } from "../pages/Category";
 import { ProductPage } from "../pages/Product";
 import { InformationPage } from "../pages/Information";
 import { ContactsPage } from "../pages/Contacts";
+import { BasketPage } from "../pages/Basket";
+import { FaqPage } from "../pages/Faq";
+import { PolicyPage } from "../pages/Policy";
+import { NewsPage } from "../pages/News";
 
 export const router = createBrowserRouter([
   {
@@ -19,12 +23,28 @@ export const router = createBrowserRouter([
     element: <CategoriesPages />,
   },
   {
+    path: routeNames.basket,
+    element: <BasketPage />,
+  },
+  {
     path: routeNames.information,
     element: <InformationPage />,
   },
   {
     path: routeNames.contacts,
     element: <ContactsPage />,
+  },
+  {
+    path: routeNames.faq,
+    element: <FaqPage />,
+  },
+  {
+    path: routeNames.policy,
+    element: <PolicyPage />,
+  },
+  {
+    path: routeNames.news,
+    element: <NewsPage />,
   },
   {
     path: `${routeNames.categories}/:id`,

@@ -1,13 +1,17 @@
-import { useNavigate } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
 import { Header } from "../../components/Header";
-import { routeNames } from "../../navigation/routeNames";
+import { Hero } from "../../components/Hero";
+// import { routeNames } from "../../navigation/routeNames";
 
 export const MainPage = () => {
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
   return (
-    <main>
+    <div>
       <Header />
-      <button onClick={() => navigate(routeNames.categories)}>go</button>
-    </main>
+      <main>
+        <Hero />
+        {/* <button onClick={() => navigate(routeNames.categories)}>go</button> */}
+      </main>
+    </div>
   );
 };

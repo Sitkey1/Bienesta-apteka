@@ -1,0 +1,23 @@
+.info {
+  padding-bottom: 300px;
+  background-image: url(/../src/image/logo-back.png);
+  background-repeat: no-repeat;
+  background-position: 50% 106%;
+  h2 {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: #4a755b;
+  }
+  .list-info {
+    display: flex;
+    flex-direction: column;
+    li {
+      padding: 10px 0;
+      font-weight: 700;
+      font-size: 20px;
+      color: #4a755b;
+      border-top: 1px solid #4a755b;
+    }
+  }
+}

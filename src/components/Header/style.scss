@@ -1,6 +1,48 @@
 header {
-  background-color: red;
+  padding: 10px 5px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  color: #141414;
+  background-color: #fff;
+  border-top: 1px solid #000;
   span {
     color: #fff;
+  }
+  .nav {
+    display: flex;
+    justify-content: space-between;
+
+    .img-1 {
+      padding: 25px 0 0 0;
+      background-image: url(/../src/image/header1.svg);
+      background-repeat: no-repeat;
+      background-size: 30px 20px;
+      background-position: 12px 5px;
+    }
+
+    .img-2 {
+      padding: 25px 0 0 0;
+      background-image: url(/../src/image/header2.svg);
+      background-repeat: no-repeat;
+      background-size: 29px 20px;
+      background-position: 33px 5px;
+    }
+
+    .img-3 {
+      padding: 25px 0 0 0;
+      background-image: url(/../src/image/header3.svg);
+      background-repeat: no-repeat;
+      background-size: 29px 20px;
+      background-position: 16px 5px;
+    }
+
+    .img-4 {
+      padding: 25px 0 0 0;
+      background-image: url(/../src/image/header4.svg);
+      background-repeat: no-repeat;
+      background-size: 20px 20px;
+      background-position: 40px 5px;
+    }
   }
 }
