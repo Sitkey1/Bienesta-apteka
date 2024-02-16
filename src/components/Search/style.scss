@@ -1,0 +1,23 @@
+.search-box {
+  padding: 0 20px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .input-box {
+    position: relative;
+    width: 100%;
+  }
+  svg {
+    position: absolute;
+    left: 6px;
+    top: 15px;
+    fill: #7e7e7e;
+  }
+  input {
+    padding: 15px 15px 15px 25px;
+    width: 93%;
+    border-radius: 10px;
+    border: navajowhite;
+  }
+}

@@ -1,45 +1,44 @@
-import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import products from "../../data/products.json";
-import { Header } from "../../components/Header";
+import { SearchBox } from "../../components/Search";
 import "./style.scss";
+import { useState } from "react";
 
 const categories = [
   "salud",
   "hipertension",
   "adelgazar",
+  "saludmasculina",
   "diabetes",
   "belleza",
   "articulacion",
-  "abandonar losmalos habitos",
+  "abandonar los malos habitos",
   "rumor",
   "vision",
   "nuevo",
 ];
 
 export const CategoriesPages = () => {
-  const navigate = useNavigate();
-
   return (
-    <main>
+    <section className="categories-section">
       <div className="container">
-        {categories.map((el) => (
-          <button
-            className="btn-reset"
-            key={el}
-            onClick={() =>
-              navigate(el, {
-                state: {
-                  data: products.filter((item) => item.type === el),
-                },
-              })
-            }
-          >
-            {el}
-          </button>
-        ))}
+        <SearchBox />
+        <ul className="list-reset ">
+          {categories.map((el, i) => {
+            return (
+              // TODO: Почему то не работает если обернуть Link в li
+              <Link
+                key={el.id}
+                to={el}
+                state={products.filter((item) => item.type === el)}
+              >
+                <img src={require(`./images/${el}.png`)} alt="category" />
+                {el}
+              </Link>
+            );
+          })}
+        </ul>
       </div>
-
-      <Header />
-    </main>
+    </section>
   );
 };

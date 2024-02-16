@@ -1,6 +1,27 @@
-button {
-  width: 167px;
-  height: 172px;
-  display: flex;
-  flex-wrap: wrap;
+.categories-section {
+  ul {
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    li {
+      margin-bottom: 20px;
+      position: relative;
+      min-width: 175px;
+      height: 180px;
+      img {
+        width: 100%;
+      }
+      a {
+        position: absolute;
+        left: 10px;
+        top: -188px;
+        right: 0;
+        bottom: 0;
+        text-align: start;
+        font-size: 18px;
+        font-weight: bold;
+      }
+    }
+  }
 }

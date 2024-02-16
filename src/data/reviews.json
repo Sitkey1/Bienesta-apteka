@@ -1,0 +1,1066 @@
+[
+  {
+    "id": 1001,
+    "review": "Esta crema Exodermin es perfecta para aquellos que tienen piel sensible en sus pies y están constantemente agrietados. Personalmente, me ayudó mucho. Han pasado cinco días, probablemente, y ya no he tenido grietas en mis talones, la piel se ha vuelto tan suave, muy agradable.",
+    "user": {
+      "name": "Tatiana",
+      "age": 43
+    }
+  },
+  {
+    "id": 1001,
+    "review": "Corro todas las mañanas en el bosque cerca de la casa y a menudo me mojo los pies debido a la hierba húmeda y los charcos. Mis uñas y talones estaban en una condición terrible, no cuidaba mis pies correctamente y pagué por ello... Era una pena incluso desnudarme delante de la chica. Las uñas finalmente retomaron a su antigua estructura, los talones ahora no parecen trozos de barro seco.",
+    "user": {
+      "name": "Óscar",
+      "age": 35
+    }
+  },
+  {
+    "id": 1001,
+    "review": "¡Incluso el color y el olor de la crema habla de su naturalidad! Es un placer utilizar tales productos, sabiendo que no te dañarán de ninguna manera, y también ayudan a combatir la enfermedad. Nunca me habían gustado mucho mis pies. Tuve algún tipo de infección en la piscina y ni siquiera lo había notado cuando ya se había cubierto de pequeños granitos con materia. Exodermin me ayudó en 3 días ¿Qué más podemos decir sobre el producto si ayuda tan rápido? Tengo que tomarlo, inequívocamente, lo aconsejo a todos los que se enfrentan a un problema de este tipo.",
+    "user": {
+      "name": "Orlando",
+      "age": 54
+    }
+  },
+  {
+    "id": 1002,
+    "review": "Nunca pensé que volvería a sentirme tan bien como hace 20 años. Este suplemento es un verdadero milagro. Sentí el efecto positivo dos semanas después de iniciar el ciclo. Mi salud mejoró notablemente y mi tono aumentó. Es como si me hubiera rejuvenecido. ¡Se lo aconsejo a todos!",
+    "user": {
+      "name": "Frida",
+      "age": 43
+    }
+  },
+  {
+    "id": 1002,
+    "review": "Todo está bien, CLEANFORTE mejora la digestión y el bienestar general. El único inconveniente es el sabor. Tal vez a alguien le guste el sabor y el olor de las hierbas, pero a mí me molesta un poco. Pero este es el único inconveniente.",
+    "user": {
+      "name": "Fernando",
+      "age": 39
+    }
+  },
+  {
+    "id": 1002,
+    "review": "Soy, para ser honesta, escéptica sobre los suplementos dietéticos. No sé si es el efecto de tomar CLEANFORTE o no, pero después del ciclo de tratamiento el cabello y las uñas se me mejoraron. Tal vez sea por el hecho de que hay menos toxinas. En cualquier caso, pienso seguir el ciclo. Hasta ahora, el resultado es alentador.",
+    "user": {
+      "name": "Eperance",
+      "age": 32
+    }
+  },
+  {
+    "id": 1003,
+    "review": "ME ENCANTA E-tox! Sufría de hinchazón constante, aumento de peso aleatorio/rápido, no podía perder un kilo a pesar de comer sano y hacer ejercicio, y niebla mental por un tiempo. Fue realmente frustrante, tengo un título en kinesiología con una especialización en nutrición, así que SÉ cómo hacer ejercicio y comer bien. Entonces un amigo sugirió estas cápsulas. Funcionó de maravilla. Estaba eliminando algunos problemas. Era bastante raro. Después de tomarlo, la hinchazón desapareció, comencé a perder peso y mi cerebro volvió a ser rápido e ingenioso. Ahora tomo E-tox anualmente. Resulta que puedes contraer parásitos de casi cualquier cosa (¡no solo sushi!) Se lo recomiendo a todos los que conozco!",
+    "user": {
+      "name": "Regla",
+      "age": 25
+    }
+  },
+  {
+    "id": 1003,
+    "review": "Necesitaba una limpieza y me recomendaron este producto. Me sentí mucho más ligera después. Tenía mucha más energía. No más dolores de cabeza, niebla mental, calambres e incluso síntomas de alergia.",
+    "user": {
+      "name": "Tercero",
+      "age": 26
+    }
+  },
+  {
+    "id": 1007,
+    "review": "Por fin un buen producto para acabar con los ronquidos. Me resulta muy incómodo quedarme en otra casa. Ya lo he pedido. Con suerte, me devolverá a una vida normal y plena.",
+    "user": {
+      "name": "Carlos Sánchez",
+      "age": 30
+    }
+  },
+  {
+    "id": 1007,
+    "review": "Mi marido ronca como un cerdo. Estoy muy de esto cansada. Sé que no es su culpa, pero me estoy volviendo muy enojona. La idea del divorcio ronda mi mente constantemente. He pedido Asnorin, espero que le ayude. Lo quiero y no quiero que se vaya.",
+    "user": {
+      "name": "Claudia Pérez",
+      "age": 53
+    }
+  },
+  {
+    "id": 1007,
+    "review": "Como profesional de la medicina, es un gran progreso. Fui a esa conferencia y todos los médicos quedaron muy satisfechos. Es asombroso crear un producto tan seguro y eficaz. Creo que habrá menos ronquidos y más gente que duerma bien. Como médico, recomiendo que lo prueben.",
+    "user": {
+      "name": "Susana Vegas",
+      "age": 49
+    }
+  },
+  {
+    "id": 1007,
+    "review": "Tuve un amigo que casi murió de apnea del sueño, pero afortunadamente mi mujer estaba allí. También entró al grupo de prueba de Asnorin. Los ronquidos cesaron y Jorge empezó a sentirse notablemente mejor. Se acabaron las migrañas, que le habían estado molestando durante casi dos días por la falta de sueño. Ahora es una persona completamente diferente.",
+    "user": {
+      "name": "Roberto Pulido",
+      "age": 45
+    }
+  },
+  {
+    "id": 1007,
+    "review": "Los ronquidos son algo muy malo. No es algo que se deba subestimar. Lo mejor es comenzar un curso de prevención a tiempo.",
+    "user": {
+      "name": "Alberto Pérez",
+      "age": 50
+    }
+  },
+  {
+    "id": 1007,
+    "review": "Lo he pedido para mi papá. Él no puede deshacerse de los ronquidos desde hace 5 años.",
+    "user": {
+      "name": "Itzel Rojas",
+      "age": 35
+    }
+  },
+  {
+    "id": 1007,
+    "review": "Comencé a salir con una chica, todo iba bien pero después de la primera cita ella se fue corriendo. Qué pena. No es la primera. A mí también me da miedo no poder despertarme por las mañanas. Pedí uno para mí y otro para mi padre, es cosa de familia.",
+    "user": {
+      "name": "Víctor López",
+      "age": 40
+    }
+  },
+  {
+    "id": 1007,
+    "review": "Leí sobre este producto en una revista científica. Me alegra que su composición sea completamente natural y no tenga efectos secundarios.",
+    "user": {
+      "name": "Marcelo Flores",
+      "age": 55
+    }
+  },
+  {
+    "id": 1011,
+    "review": "Mi esposo y yo hemos estado tomando Cardioxil durante un mes, y a veces nos olvidamos de tomarlo todos los días. Hicimos un examen de los vasos sanguíneos hace 2 meses por primera vez, y el examen mostró que nuestros vasos estaban llenos de colesterol. Recientemente nos volvieron a examinar, y nuestros vasos sanguíneos están limpios.",
+    "user": {
+      "name": "Inna",
+      "age": 35
+    }
+  },
+  {
+    "id": 1011,
+    "review": "Tuve problemas de memoria durante muchos años, pensaba que ese era el final, pero resultó que había una solución, ¡ahora me siento joven!",
+    "user": {
+      "name": "Francisco",
+      "age": 37
+    }
+  },
+  {
+    "id": 1012,
+    "review": "Bueno para bajar la presión arterial, poco a poco, estoy satisfecho y tomo todo el curso. No puedo quejarme en absoluto.",
+    "user": {
+      "name": "Jorge Salazar",
+      "age": 32
+    }
+  },
+  {
+    "id": 1012,
+    "review": "Llevo quince días tomándolo y puedo decir que me ayuda.",
+    "user": {
+      "name": "Ana Garcia",
+      "age": 37
+    }
+  },
+  {
+    "id": 1013,
+    "review": "Comprendí que la reducción de la PA provoca un accidente cerebrovascular isquémico - infarto cerebral - al ver que le sucedió a mi hermana mayor. Los médicos le salvaron la vida, pero no se recuperó completamente. La primera vez que también enfrenté esta enfermedad, ya conocía algunos trucos y sabía que debía buscar remedios vegetales y herbales. Mi médico, una mujer muy sabia, me recetó Herz&Herz. Le estoy muy agradecida. Ya pasaron 4 años y ya no soy hipertensa. Soy una persona completamente sana, que no tiene miedo de un infarto ni de una apoplejía. ¡Cuida tu salud!",
+    "user": {
+      "name": "Marta",
+      "age": 39
+    }
+  },
+  {
+    "id": 1014,
+    "review": "Tengo 39 años y tengo hipertensión desde hace 6 años. Anteriormente, esto no se expresaba con tanta frecuencia, pero con el tiempo los dolores de cabeza empeoraron, el problema se hizo más frecuente y simplemente se volvió insoportable. Los médicos repiten lo mismo, recetan los mismos medicamentos, que no ayudan en absoluto. Y decidí arriesgarme y automedicarme ordenando cápsulas Cardioactive en Internet. ¡El Universo mismo me los envió! Ya no me siento abrumada, comencé a llevar un estilo de vida activo, a disfrutar cada día. ¡Este remedio es mi salvación!",
+    "user": {
+      "name": "Sara Lopez",
+      "age": 39
+    }
+  },
+  {
+    "id": 1014,
+    "review": " Obtuve las cápsulas Cardioactive hace 3 meses. Ahora mi presión arterial salta muy raramente, solo aumenta por una actividad fuerte, pero sin sensaciones dolorosas. Quizás este sea un medicamento milagroso, ya que finalmente me deshice de trastornos hipertensivos. Ahora recomiendo estas cápsulas a todos mis amigos.",
+    "user": {
+      "name": "Maria Valdivieso",
+      "age": 39
+    }
+  },
+  {
+    "id": 1015,
+    "review": "Utilizo Meduslim desde hace casi 3 meses y este suplemento no deja de sorprenderme. ¡Antes tenía problemas para perder peso, pero después de usar Meduslim he perdido casi 4 kilos!",
+    "user": {
+      "name": "Ana",
+      "age": 21
+    }
+  },
+  {
+    "id": 1015,
+    "review": "Utilicé Meduslim por primera vez por consejo de mi pareja. Pero nunca hubiera imaginado estos resultados. ¡Gracias a él me deshice de la grasa superflua del abdomen y ya estoy listo para el verano!",
+    "user": {
+      "name": "Mario",
+      "age": 33
+    }
+  },
+  {
+    "id": 1015,
+    "review": "Comencé a aprovechar las maravillosas propiedades de la piperina tras acudir a un dietista. ¡Este es el segundo suplemento con piperina que uso, pero fue Meduslim el que hizo que mi balanza comenzar a moverse! En cuanto a su composición es sin lugar a dudas un producto líder.",
+    "user": {
+      "name": "Mónica",
+      "age": 27
+    }
+  },
+  {
+    "id": 1015,
+    "review": "¡La piperina de este producto parece funcionar mucho mejor que la de la competencia! Además, las cápsulas no causan las molestias estomacales desagradables que todos conocemos - supongo que esto probablemente se deba a las Meduslim. Gracias a Meduslim ya he perdido 8 kg, y utilizo el suplemento desde hace 3 meses. ¡Genial y seguro!",
+    "user": {
+      "name": "Marta",
+      "age": 24
+    }
+  },
+  {
+    "id": 1016,
+    "review": "Retrasé el comienzo de mi dieta todo el tiempo, pero hoy me pedí estas cápsulas. Gracias por el apoyo! Ahora, por valentía, también haré 30 sentadillas;)",
+    "user": {
+      "name": "Alicia",
+      "age": 24
+    }
+  },
+  {
+    "id": 1021,
+    "review": "Tuve un resultado muy bueno, pensé que podría perder peso tan rápido solo ayunando. ¡Muy bien!",
+    "user": {
+      "name": "Elena Cornejo",
+      "age": 34
+    }
+  },
+  {
+    "id": 1021,
+    "review": "Hace medio año tomé 'Lipoxin', perdí 19 kg por un curso. El peso no volvió, el producto es fantástico",
+    "user": {
+      "name": "Tati Montes",
+      "age": 42
+    }
+  },
+  {
+    "id": 1025,
+    "review": "Gracias en nombre de mi madre, Antonia. Sólo Keto Slim la ayudó a perder 18 kg de peso. Ella es diabética, todas las dietas de adelgazamiento están contraindicadas y hacer ejercicio le resulta difícil. ¡Le has devuelto la vida!",
+    "user": {
+      "name": "Lorella",
+      "age": 32
+    }
+  },
+  {
+    "id": 1025,
+    "review": "¡Eso es impresionante! ¡¡Perdí 6 kg en 2 semanas!! Al tener un trabajo sedentario, no me preocupo por la dieta. ¡Gracias! Keto Slim realmente ayuda a perder peso",
+    "user": {
+      "name": "Victoria",
+      "age": 31
+    }
+  },
+  {
+    "id": 1027,
+    "review": "Tuve un resultado muy bueno, no pensé que podría perder peso tan rápido solo tomanso las polvo. ¡Muy bien!",
+    "user": {
+      "name": "Elena Cornejo",
+      "age": 38
+    }
+  },
+  {
+    "id": 1027,
+    "review": "Hace medio año tomé Matcha Suri, perdí 19 kg por un curso. El peso no volvió, el remedio es fantásticoHace medio año tomé Matcha Suri, perdí 19 kg por un curso. El peso no volvió, el remedio es fantástico",
+    "user": {
+      "name": "Tati Montes",
+      "age": 41
+    }
+  },
+  {
+    "id": 1030,
+    "review": "otalmente confirmado! Potencialex es un gran producto. Tengo 54 años. Ya casi no tengo erección. Muy raramente He probado muchas cosas para recuperarla. Recetas populares, pastillas, fui al urólogo muchas veces. Lo único que me ayudó fue este fármaco.",
+    "user": {
+      "name": "Carlos",
+      "age": 41
+    }
+  },
+  {
+    "id": 1030,
+    "review": "También me sentí más joven después de tomar un curso de 'Potencialex'.",
+    "user": {
+      "name": "José",
+      "age": 33
+    }
+  },
+  {
+    "id": 1030,
+    "review": "Lo pedí. Todavía lo hay. La entrega es por correo ordinario. Nunca pedí nada en Internet, pero resultó ser fácil. Todo lo que necesitas es dejar tu número de teléfono. Luego el gerente me devolvió la llamada y me preguntó a qué dirección entregar el artículo.",
+    "user": {
+      "name": "Hugo",
+      "age": 28
+    }
+  },
+  {
+    "id": 1031,
+    "review": "También me dio prostatitis y fui a ver al urólogo. Me mandó pastillas, supositorios, inyecciones. Todas estas cosas parecen frenar la enfermedad. Tan pronto como terminé los medicamentos, me comenzó a progresar la enfermedad de inmediato, los dolores y las molestias aumentaron. Ordené Urogen Forte, tengo mis últimas esperanzas puestas en él",
+    "user": {
+      "name": "Segismundo Prado",
+      "age": 48
+    }
+  },
+  {
+    "id": 1031,
+    "review": "Me trataron con este medicamento. Me alivié rápidamente, al siguiente día dejé de correr por la noche al baño y casi de inmediato desapareció el dolor en la ingle",
+    "user": {
+      "name": "Samir",
+      "age": 34
+    }
+  },
+  {
+    "id": 1032,
+    "review": "No podía imaginar como sería ir al baño sin sentir dolor. Orinar era una verdadera tortura para mí porque cada vez que iba al baño, sentía como si navajas afiladas salieran de mi pene. Sólo Revitaprost me ayudó a resolver este problema. Fue un verdadero milagro. Sólo me tomó 4 semanas, así que ahora puedo orinar sin dolor.",
+    "user": {
+      "name": "Fernando",
+      "age": 34
+    }
+  },
+  {
+    "id": 1032,
+    "review": "Le tengo miedo a las cirugías. Tuve un problema de urología y conozco esta experiencia. No se puede oír nada, pero se puede ver todo. Ves en el reflejo cómo el doctor trata tu cuerpo con un bisturí. Estuve en el ejército, así que no soy un débil de corazón, pero fue una pesadilla. No quería repetir esa experiencia, por eso elegí Revitaprost. Tres semanas después, vi los resultados. Dejé de sentir dolor en la ingle y de sacar orina con sangre.",
+    "user": {
+      "name": "Filiberto",
+      "age": 48
+    }
+  },
+  {
+    "id": 1033,
+    "review": "No podía imaginar como sería ir al baño sin sentir dolor. Orinar era una verdadera tortura para mí porque cada vez que iba al baño, sentía como si navajas afiladas salieran de mi pena. Sólo Prostasen me ayudó a resolver este problema. Fue un verdadero milagro. Sólo me tomó 4 semanas, así que ahora puedo orinar sin dolor.",
+    "user": {
+      "name": "Luis",
+      "age": 38
+    }
+  },
+  {
+    "id": 1033,
+    "review": "Tengo prostatitis crónica desde mi juventud. Durante los últimos seis meses los dolores han sido tan intensos que no podía ni pensar en tener relaciones sexuales con mi mujer. Tengo la suerte de que mi mujer es médico y me aconseja. Un día me trajo Prostasen y en un mes estaba irreconocible. Ya no tengo dolor, ni disfunción urinaria. Mi vida sexual ha mejorado.",
+    "user": {
+      "name": "Antonio",
+      "age": 28
+    }
+  },
+  {
+    "id": 1036,
+    "review": "Pedí este producto hace aproximadamente un mes. Tuve el efecto después de una semana de usarlo. Primero pensé que tendría que ir a cirugía, pero ahora no la necesito. Tengo 54 años, pero siento como si tuviera 34. Ni siquiera esperaba tal resultado)",
+    "user": {
+      "name": "Carlos González",
+      "age": 38
+    }
+  },
+  {
+    "id": 1036,
+    "review": "Durante el último año y medio me dolía la próstata, fui a darme un masaje, tomaba pastillas, pero todo se repitió. Pero Revitaprost resolvió todos los problemas literalmente durante dos semanas y realmente me olvidé de la próstata, aunque los médicos ya habían dicho que era algo crónico.",
+    "user": {
+      "name": "Omar Sánchez",
+      "age": 27
+    }
+  },
+  {
+    "id": 1036,
+    "review": "Traté la prostatitis con 'Vitafon' que había la comprado en el año 2000. Yo también hacía los ejercicios especiales para reducir el estancamiento en la pelvis. Al principio si tenía el efecto, pero luego todo volvió de nuevo. Pero después de Revitaprost no tengo problemas, todo está normal.",
+    "user": {
+      "name": "Sergio",
+      "age": 45
+    }
+  },
+  {
+    "id": 1037,
+    "review": "Les puedo garantizar el efecto. Lo comprobé por mi mismo. Al principio bebí un montón de antibióticos, iba a un masaje y usaba otros remedios durante largo rato. Pero después de dos meses la próstata me volvió a preocupar. Pero después del curso de Ero Forte ya han pasado 4 meses y se me olvidó por completo que tengo este problema.",
+    "user": {
+      "name": "Miguel López",
+      "age": 35
+    }
+  },
+  {
+    "id": 1042,
+    "review": "Siempre he sido un poco escéptico con los suplementos, pero debo admitir que Azúo funciona. Mis niveles de azúcar han mejorado y ahora mi esposa también lo ha probado y nota más energía, mejores niveles de glucosa y ordenaré más pronto.",
+    "user": {
+      "name": "Raúl",
+      "age": 35
+    }
+  },
+  {
+    "id": 1042,
+    "review": "Entrega rápida y cantidad por el precio. ¡Gracias!",
+    "user": {
+      "name": "Verónica",
+      "age": 28
+    }
+  },
+  {
+    "id": 1042,
+    "review": "Azúo tiene una excelente relación calidad-precio y puedo sentir la diferencia cuando lo tomo.",
+    "user": {
+      "name": "Josué",
+      "age": 38
+    }
+  },
+  {
+    "id": 1042,
+    "review": "Ha mejorado mi nutrición y definitivamente ayuda a controlar mi diabetes.",
+    "user": {
+      "name": "Camilo",
+      "age": 26
+    }
+  },
+  {
+    "id": 1042,
+    "review": "Entrega siempre muy rápida. Compré Azúo para mi mamá. A ella le encanta. Ella dice que la ayudó, así que vale la pena el dinero.",
+    "user": {
+      "name": "Sara hace",
+      "age": 43
+    }
+  },
+  {
+    "id": 1042,
+    "review": "Los he estado tomando durante un par de meses y he visto un impacto positivo en mis lecturas de azúcar en la sangre.",
+    "user": {
+      "name": "Jerónimo",
+      "age": 24
+    }
+  },
+  {
+    "id": 1043,
+    "review": "Muchas gracias por este fármaco. Antes tenía que tomar pastillas a puñados, ahora muy raras veces las tomo. Después de un ciclo de tratamiento con Gluconol han desaparecido el cansancio y somnolencia, el nivel de glucosa en la sangre se ha normalizado. Hasta a veces olvido comprobarlo. Me siento una persona normal y sana.",
+    "user": {
+      "name": "Pedro Luna",
+      "age": 43
+    }
+  },
+  {
+    "id": 1043,
+    "review": "Cuando descubrí que tenía diabetes, era como si se hubiera acabado mi vida. Decidí que todo - una vida normal ha terminado, ahora estoy casi discapacitado. Tuve mucha suerte con el médico que me tranquilizó y me dijo que la enfermedad era tratable con éxito. El médico me nombró Gluconol. Y gracias a esto significa que pude volver a la vida habitual de una persona sana ordinaria. ¡Muchas gracias!",
+    "user": {
+      "name": "Víctor Paredes ",
+      "age": 62
+    }
+  },
+  {
+    "id": 1043,
+    "review": "Después de cumplir 40 años, me diagnosticaron diabetes. Estoy muy contenta de que nuestros científicos hayan podido hacer un medicamento que no solo reduce temporalmente el azúcar, sino que contribuye al tratamiento de la enfermedad. Luché con ella durante mucho tiempo y fue dolorosamente difícil para mí seguir una dieta que no ayudaba mucho. Gluconol me ayudó. Durante más de un año, mi azúcar es normal. Me siento bien, incluso el peso comenzó a caer, ya que el metabolismo mejoró.",
+    "user": {
+      "name": "María Torres",
+      "age": 48
+    }
+  },
+  {
+    "id": 1044,
+    "review": "Sofía, ¡gracias! Lo he probado, se siente mejor. Veremos cómo va en una semana. Es demasiado pronto para decirlo, informaré más tarde. Pero el azúcar no ha subido, ni siquiera lo siento. Así que creo que todo irá bien. Milagros Mendoza unos 55 días, después de 30 días no noto su pico de azúcar en absoluto.",
+    "user": {
+      "name": "Alonso Córdova",
+      "age": 58
+    }
+  },
+  {
+    "id": 1044,
+    "review": "unos 55 días, después de 30 días no noto su pico de azúcar en absoluto.",
+    "user": {
+      "name": "Milagros Mendoza",
+      "age": 55
+    }
+  },
+  {
+    "id": 1045,
+    "review": "También lo pedí para mí en el sitio web oficial . Me ayudó perfectamente. Si tiene algún problema con el nivel de azúcar, se lo recomiendo. La entrega es rápida, lo recibí en 3 días.",
+    "user": {
+      "name": "Francisco Segura",
+      "age": 51
+    }
+  },
+  {
+    "id": 1045,
+    "review": "Viví con mi marido con diabetes durante más de 5 años. Sufrió terriblemente. Y ahora está tan animado como si volviera a tener 18 años. ¡PS paquete a Sevillafue entregado muy rápidamente!",
+    "user": {
+      "name": "Lucía Cadena",
+      "age": 58
+    }
+  },
+  {
+    "id": 1047,
+    "review": "Muchas gracias por este producto. Tuve problemas para tomar medicamentos en el pasado y, a veces, ni siquiera los tomaba. Pero después de probar Diaxil, la fatiga y la somnolencia desaparecieron, mis niveles de azúcar en la sangre volvieron a la normalidad y ahora incluso me olvido de medirlo. Me siento más fuerte y no como una vieja",
+    "user": {
+      "name": "Gloria",
+      "age": 32
+    }
+  },
+  {
+    "id": 1047,
+    "review": "He tenido diabetes tipo 2 durante muchos años. El azúcar en la sangre aumentaba cada vez más. Estaba muy preocupada, seguía una dieta e iba al médico con regularidad, pero no cambió nada. Por ejemplo: en un día, el azúcar me subió de 3,2 a 11. Pero mi cuñada me habló de Diaxil y me recomendó que lo tomara dos veces al día. Sentí los cambios rápidamente: mis niveles de azúcar en la sangre comenzaron a bajar hasta los 5-8 y ahora mi cuerpo funciona normalmente. Es un producto que me ha devuelto la alegría de la vida",
+    "user": {
+      "name": "Sofía",
+      "age": 36
+    }
+  },
+  {
+    "id": 1048,
+    "review": "Sí, de hecho, los métodos actuales de tratamiento de la diabetes no garantizan en absoluto que todo vaya a estar bien. Veo a un médico todos los meses pero, de vez en cuando, tengo convulsiones hipoglucémicas. Intentaré combinar la terapia con DIOLIX. Espero que al menos así pueda por fin empezar a vivir en paz, sin miedo a desmayarme en algún lugar o en una tienda o del metro.",
+    "user": {
+      "name": "Carolina Roldán",
+      "age": 41
+    }
+  },
+  {
+    "id": 1049,
+    "review": "Llevo más 20 años padeciendo de la diabetes. Probé todo lo que había recomendado el médico tratante, igual que las fórmulas de la medicina tradicional. El resultado es uno: el nvel de glucosa en la sangre no dejaba de subir. Mi estado se empeoraba. Dejé de salir a la calle, simplemente no tenía fuerzas. DiaformRX me ayudó a encontrar las fuerzas en mí mismo. ¡Así conocí a la señora Inés Alonso Mora. ¡Hasta la fecha, llevamos más de medio año conociendonos, y los resultados del uso de DiaformRX no dejan de alegrarme! El azúcar está dentro de los límites de la norma. Se recuperó el tonus vital, y no simplemente salgo a la calle, sino visito mi club de ajedrez favorito. ¡Estimada señora Inés, agradezco cordialmente a Usted por su delicadeza, bondad, comprensión y un trato humano caluroso!",
+    "user": {
+      "name": "Miguel Aguilar",
+      "age": 74
+    }
+  },
+  {
+    "id": 1049,
+    "review": "Después de un accidente de tráfico sufrí varias operaciones y como consecuencia fue un diagnóstico terrible — la diabetés mellitus. Desde el año 2003 estoy tomando la insulina. Tenía menos de 40 años todavía, y me sentía así como si hubiera vivido un siglo entero. A medida que el nivel de glucosa estaba subiendo, empezó a empeorarse la vista, al dignóstico la diabetes “se pegó” la hipertensión, como me parecía, para siempre. Pero como se dice: “cada hombre forja su felicidad”, y decidí salvarme yo misma. Ayudó el internet. En uno de los sitios wem leí una historia parecida a la mía, en la que un diabético usó DiaformRX y logró resultados significativos en la lucha cotra su enfermedad. Mi “guerra” con la diabetes no está acabada todavía, pero gracias a DiaformRX logré volver a empezar a trabajar, cuido a los nietos, y en el año proximo planeo un viaje a la Republica Checa. ¡Expreso mi profundo reconocimiento a señora Inés Alonso y DiaformRX por haberme devuelto “el gusto” por la vida!",
+    "user": {
+      "name": "Zoe Cruz",
+      "age": 48
+    }
+  },
+  {
+    "id": 1049,
+    "review": "¡La señora Inés Alonso es una profesional con mayúsculas!Una especialista enterada, competente y comprensiva. Su trabajo se puede citarlo como ejemplo a cualquier especialista. Mi historia se parece a cientos de mil otras: disposición genética a la diabetes mellitus se agravó por las consecuencias del trabajo en la industria nociva. Cómo piedra caída del cielo en el año 2007 sonó el diagnóstico del médico tratante: la diabetes mellitus. Lo siguió una sucesión de los cambios de unos fármacos por otros. A decir francamente, no me ayudaba nada. El estado se empeoró: apareció la disnea, dolores de cabeza, vértigo y sequedad de boca. Es una parte pequeña de lo que viví. Sobre DiaformRX me enteré de casualidad haciendo cola a la consulta del endocrinólogo. Y la señora que contó de él, se destacaba visualmente de las demás diabéticas. Yo también decidí no darme por vencida y solicité apoyo en el sitio web de DiaformRX. Me recomendaron un ciclo de tratamiento de 6 meses. Hoy mi índice del nivel de glucosa es de 5.8, me siento excelente, todos los análisis están normales, y por todo eso vuelvo a dar muchas gracias a DiaformRX y a la señora Inés!",
+    "user": {
+      "name": "Laura Herrera",
+      "age": 62
+    }
+  },
+  {
+    "id": 1050,
+    "review": "Pedí este producto hace unos 4 meses. Al principio era muy escéptico. Pero resulta que los resultados fueron asombrosos. Todavía estoy a dieta, pero a veces vuelvo a comer comida normal y todo va bien. Cuando mido los niveles de azúcar en sangre, los resultados aún se encuentran dentro de los límites normales",
+    "user": {
+      "name": "Maricel Aguirre",
+      "age": 67
+    }
+  },
+  {
+    "id": 1050,
+    "review": "Mi esposa y yo tomamos esta Diolix y los resultados fueron asombrosos. Me siento mucho más saludable que nunca. También fue muy fácil ordenar. Por cierto, lo recibimos en 3 días. ¡Muchos gracias!",
+    "user": {
+      "name": "Nelson Torres",
+      "age": 67
+    }
+  },
+  {
+    "id": 1051,
+    "review": "He realizado mi pedido. Estoy esperando para comenzar esto. Quiero ver cómo da resultado",
+    "user": {
+      "name": "Julian",
+      "age": 47
+    }
+  },
+  {
+    "id": 1051,
+    "review": "Un amigo mío lo usó y hace 2 semanas me lo recomendó. Lo pedí y en 3 días llegó a mi casa. Su resultado es muy bueno, estoy esperando lo que será el resultado de 3, 4 semanas.",
+    "user": {
+      "name": "Mateo Prieto",
+      "age": 35
+    }
+  },
+  {
+    "id": 1051,
+    "review": "Acabo de ordenar. No puedo esperar a su entrega",
+    "user": {
+      "name": "Gaurav Arora",
+      "age": 54
+    }
+  },
+  {
+    "id": 1051,
+    "review": "Mi hermana ordenó esto hace unos meses. Quería ver sus reseñas antes de pedir mi botella. Pero para cuando ordené, la botella había terminado, después de esperar un tiempo volví a pedir mi botella.",
+    "user": {
+      "name": "Bruno",
+      "age": 28
+    }
+  },
+  {
+    "id": 1053,
+    "review": "¡Ahora los admiradores están dispuestos a arrojar todo lo que tienen a mis pies!",
+    "user": {
+      "name": "Josefa",
+      "age": 24
+    }
+  },
+  {
+    "id": 1053,
+    "review": "Podemos correr por el parque todo el día con Enrique. ¡Y no me duelen los pies por la noche!",
+    "user": {
+      "name": "Inda",
+      "age": 31
+    }
+  },
+  {
+    "id": 1053,
+    "review": "Con Veniselle, estoy lista para crear belleza durante todo el día. Y no estoy nada cansada.",
+    "user": {
+      "name": "Julia",
+      "age": 28
+    }
+  },
+  {
+    "id": 1053,
+    "review": "¡Las piernas ya no duelen y la edad no es un obstáculo para practicar deportes!",
+    "user": {
+      "name": "Esther",
+      "age": 67
+    }
+  },
+  {
+    "id": 1054,
+    "review": "Lo pedí para mi hija, que solo tiene 24 años, ya que no podía contener su ansiedad. Realmente no vi ningún problema con su cabello, pero estaba desesperada. Porque cada día, después de lavarse el pelo, se le caía un puñado de cabello.",
+    "user": {
+      "name": "María Santos",
+      "age": 27
+    }
+  },
+  {
+    "id": 1054,
+    "review": "Es un gran producto. Casi estaba calva por completo y no me gustaba mucho. Vi en un foro que recomendaron Keratinorm. ",
+    "user": {
+      "name": "Andy",
+      "age": 34
+    }
+  },
+  {
+    "id": 1055,
+    "review": "¡Me gustó mucho el producto! ¡Lo he recomendado a toda mi familia y amigos!",
+    "user": {
+      "name": "Isabel",
+      "age": 34
+    }
+  },
+  {
+    "id": 1055,
+    "review": "El resultado ha superado mis expectativas. Todo el ciclo de tratamiento me llevó 1 mes, ¡ahora todo es genial! Mis piernas han comenzado a verse como antes.",
+    "user": {
+      "name": "Fabiola",
+      "age": 71
+    }
+  },
+  {
+    "id": 1058,
+    "review": "No esperaba que iba a tener tan buenos resultados después de comenzar a usar la crema. En primer lugar, desaparecieron las sensaciones desagradables y luego todo comenzó a verse mejor visualmente. ¡Ahora mis piernas están completamente sanas! ¡¡Además es superbarata!!:).",
+    "user": {
+      "name": "Carlota Gómez",
+      "age": 41
+    }
+  },
+  {
+    "id": 1058,
+    "review": "Me uno a las recomendaciones. Comencé a tener problemas con las venas. Fui a un flebólogo, me examinó y dijo que necesitaba un tratamiento urgente. Me recetó medicamentos por 100 euros que ni siquiera ayudaron. En el trabajo me recomendaron Veniselle. En una semana esas terribles venas se hicieron mucho más pequeñas :)",
+    "user": {
+      "name": "Teresa",
+      "age": 34
+    }
+  },
+  {
+    "id": 1058,
+    "review": "Sol, te hablo de mi propia experiencia: ¡el resultado del tratamiento es incomparable! La usé yo misma y se la pedí a mi madre. Las venas de ambas volvieron a su estado normal. La verdad es que estamos muy satisfechas.",
+    "user": {
+      "name": "Natalia",
+      "age": 45
+    }
+  },
+  {
+    "id": 1058,
+    "review": "Leí las reseñas y me di cuenta de que tenía que comprarla :)",
+    "user": {
+      "name": "Pepa",
+      "age": 54
+    }
+  },
+  {
+    "id": 1058,
+    "review": "El resultado ha superado mis expectativas. Todo el ciclo de tratamiento me llevó 1 mes, ¡ahora todo es genial! Mis piernas han comenzado a verse como antes.",
+    "user": {
+      "name": "Fabiola",
+      "age": 43
+    }
+  },
+  {
+    "id": 1058,
+    "review": "Llevo 2 semanas usando Veniselle. Siento ligereza en mis piernas. Antes de eso caminaba como una anciana mediomuerta. Mis piernas estaban constantemente hinchadas y me dolían. Además, no se veían muy bien por las varices. ¡Este producto es excelente!",
+    "user": {
+      "name": "Sara",
+      "age": 63
+    }
+  },
+  {
+    "id": 1059,
+    "review": "09.10.2022 Lo uso para la hinchazón de pies, dolor en las articulaciones, dolor muscular, dolor de rodilla. Recomiendo.",
+    "user": {
+      "name": "Leonor",
+      "age": 45
+    }
+  },
+  {
+    "id": 1059,
+    "review": "11.09.2022 A veces me levanto por la mañana y las articulaciones se me hinchan tanto que me duele caminar de pie. A los pocos minutos de ponerme esto en los pies y las rodillas, el dolor se reduce en un 90 %. Es asombroso.",
+    "user": {
+      "name": "Rafa",
+      "age": 53
+    }
+  },
+  {
+    "id": 1059,
+    "review": "07.11.2022 Desde la parte inferior de mi espalda hacia abajo, tenía tanto dolor que no podía relajarme lo suficiente como para dormir. Me froté la crema MoviMob en la parte baja de la espalda y en todas las articulaciones de abajo. Estaba en shock por lo bien que funcionó, ¡e inmediatamente! Esto definitivamente ofrece el mejor alivio del dolor de cualquier crema que haya probado.",
+    "user": {
+      "name": "Matías",
+      "age": 36
+    }
+  },
+  {
+    "id": 1059,
+    "review": "07.11.2022 Este producto es parte del arsenal para tratar la artritis y el dolor articular. Tiene una agradable consistencia cremosa y funciona inmediatamente al contacto. El tubo dura mucho tiempo. Muy recomendable.",
+    "user": {
+      "name": "Magdalena",
+      "age": 56
+    }
+  },
+  {
+    "id": 1059,
+    "review": "22.11.2022 Lo uso para la artritis en mis rodillas. Funciona bastante bien. No lo uso todo el tiempo, solo cuando estoy particularmente ocupado y no puedo tomarme el tiempo para descansar.",
+    "user": {
+      "name": "Zacarias",
+      "age": 45
+    }
+  },
+  {
+    "id": 1059,
+    "review": "13.05.2022 Recomiendo MoviMob a cualquier persona con dolor articular o muscular.",
+    "user": {
+      "name": "Lupita",
+      "age": 53
+    }
+  },
+  {
+    "id": 1059,
+    "review": "10.11.2022 Lo uso varias veces al día y compré tubos adicionales ya que la inflación sigue aumentando los precios en todo. Estoy muy contento con esta compra.",
+    "user": {
+      "name": "Sebastián",
+      "age": 41
+    }
+  },
+  {
+    "id": 1059,
+    "review": "02.05.2022 Tengo mucho menos dolor en mis hombros y rodillas gracias a MoviMob.",
+    "user": {
+      "name": "johana",
+      "age": 26
+    }
+  },
+  {
+    "id": 1059,
+    "review": "25.06.2022 Fórmula encantadora, no grasosa, se absorbe bien, excelente para el dolor en las articulaciones, me encanta.",
+    "user": {
+      "name": "Olga",
+      "age": 57
+    }
+  },
+  {
+    "id": 1060,
+    "review": "Recuperé la movilidad. Pero lo que más me gusta es la sensación que te tranquiliza, y te permite hacer más.",
+    "user": {
+      "name": "Juan Carlos",
+      "age": 43
+    }
+  },
+  {
+    "id": 1060,
+    "review": "Puedo continuar con mi estilo de vida sin preocuparme por los dolores a la hora de acostarme. Cuando me despierto, estoy como nuevo.",
+    "user": {
+      "name": "Santiago",
+      "age": 53
+    }
+  },
+  {
+    "id": 1060,
+    "review": "Simplemente inesperado. Había escuchado cosas buenas del producto, pero ha superado mis expectativas por mucho. Lo traigo siempre conmigo.",
+    "user": {
+      "name": "Carolina",
+      "age": 34
+    }
+  },
+  {
+    "id": 1063,
+    "review": "Pedí este bálsamo hace dos meses para mi hermana que había estado sufriendo artritis durante mucho tiempo. Me dio las gracias después de usarlo. Simplemente me arriesgué y se lo pedí.",
+    "user": {
+      "name": "Irene Picazo Ortega",
+      "age": 34
+    }
+  },
+  {
+    "id": 1065,
+    "review": "¡Eso es impresionante! ¡¡Perdí 6 kg en 2 semanas!! Al tener un trabajo sedentario, no me preocupo por la dieta. ¡Gracias! Meta Fit realmente ayuda a perder peso",
+    "user": {
+      "name": "Victoria",
+      "age": 34
+    }
+  },
+  {
+    "id": 1066,
+    "review": "Tenía artrosis, me dolían terriblemente las rodillas. De la crema con la que me había untado unos 6 días, en mi piel se me aparecieron varias ampollas hasta un centímetro del tamaño. Tuve que abandonar el curso y tomar medicinas contra alergia. Las articulaciones no me habían permitido vivir todo aquel tiempo. Hasta que una compañera mía me aconsejó Relifix. Pues me puse a untarme con ese gel, y los comprimidos contra alergia ya los tenía a mano. Pero sabe, ¡no me han servido! Y aunque los movimientos bruscos todavía causan dolor en las rodillas y pulseras (llevo usándolo hace 10 días) pero en comparación con lo antes - gran diferencia.",
+    "user": {
+      "name": "Lucia Rubio",
+      "age": 42
+    }
+  },
+  {
+    "id": 1066,
+    "review": "Después de la artritis infecciosa grave hice la pregunta al ortopedista: '¿Cuándo podré ir a mis entrenamientos?' Me respondió: '¿¡Qué entrenamientos?! ¡Ahora tendrá que cuidar su rodilla toda la vida! ¿O quiere ser inválida?' Me había capitulado hasta aquel momento cuando encontré Relifix. Empecé a usar el gel. Ya en 35-40 días pude caminar 6 km sin dolor en las articulaciones. Dentro de otra semana fui a los entrenamientos, y ¡hasta ahora me siento perfecto!",
+    "user": {
+      "name": "Ainhoa Jiménez",
+      "age": 35
+    }
+  },
+  {
+    "id": 1068,
+    "review": "Con la edad, se sienten más molestias en las articulaciones. Entonces, le pregunté a mi médico qué hacer y me recetó la crema BIOFORCE. ¡Al usarla el dolor comenzó a aliviarse en unos días! Ya no sentía el fuerte dolor en mis muñecas. Ahora puedo hacer cualquier cosa sin dolor. Pedí esta crema para mi mamá, también será útil para ella. ¡Estoy segura de que estará encantada con su efecto rápido!",
+    "user": {
+      "name": "Laura",
+      "age": 34
+    }
+  },
+  {
+    "id": 1068,
+    "review": "Cuando era joven, practicaba mucho deporte. Y también trabajé a tiempo parcial en el sector de la construcción. Los efectos que obtuve de esta tensión física ejercida en mis articulaciones y cartílagos fueron: ya a los 40 años, mis rodillas y mi espalda me causaban problemas casi todos los días. Con cualquier actividad física sentía mucho dolor en los huesos. Probé esta crema y declaro con confianza: ¡funciona! ¡en solo unos días el dolor disminuyó!. ¡Creo que con el tiempo me sentiré aún mejor!",
+    "user": {
+      "name": "Alvaro",
+      "age": 45
+    }
+  },
+  {
+    "id": 1068,
+    "review": "Después de 40 años, comenzó mi dolor de tobillo. El diagnóstico me alarmó seriamente: la artitris reumatoide. Intenté docenas de remedios diferentes para recuperarme. No quería soportar esta enfermedad, porque llevar una vida pasiva no es para mí, Además, tengo dos hijos y necesito cuidarlos. De todos los productos que probé, solo BIOFORCE pudo aliviar mi dolor. Lo recomiendo a cualquiera que también tenga problemas en las articulaciones, ¡porque definitivamente te ayudará!",
+    "user": {
+      "name": "Sandra",
+      "age": 52
+    }
+  },
+  {
+    "id": 1069,
+    "review": "He fumado uno o dos paquetes al día (más a veces) durante los últimos 30 años. He intentado dejar de fumar varias veces (para ser justos, por lo general trate de dejar de fumar sin ningún tipo de ayuda, de golpe) , pero siempre he fallado. Por triste que sea decirlo, me encanta fumar... pero también llegué al punto en que odiaba ser un esclavo de la adicción que trae consigo, sin mencionar el costo. no sería capaz de hacerlo sin ayuda, investigué los diferentes métodos para dejar de fumar. Estoy seguro de que funciona para algunas personas, así que no puedo juzgar aquí, simplemente no me pareció adecuado. Encontré este aerosol y me era demasiado difícil de creer . pero decidí intentarlo de todos modos. Tenía muchas ganas de dejarlo. También usé un dispositivo que pone pinchazos en el filtro para reducir la ingesta de nicotina, así como palillos de dientes con sabor a menta para ayudar con la fijación de la mano a la boca, pero realmente creo que fue el spray el que hizo la diferencia . Todavía quiero fumar a veces, pero es más un deseo que una necesidad. Estoy tan agradecida de haberme encontrado con esto y de que me ayudó a dejar un hábito de 30 años que probablemente me estaba matando. Sin efectos secundarios, aparte de algunos sueños vívidos. Tienes que querer dejar de fumar, y tienes que esforzarte un poco por tu cuenta.",
+    "user": {
+      "name": "Carlos",
+      "age": 46
+    }
+  },
+  {
+    "id": 1069,
+    "review": "Muchas gracias por tu recomendación. Compré este spray para mí y funciona increíble. Por supuesto, no es fácil, pero me estoy esforzando mucho. También encontré un pasatiempo como dijiste y ya no tengo tanto tiempo para pensar en cigarrillos.",
+    "user": {
+      "name": "Flor",
+      "age": 32
+    }
+  },
+  {
+    "id": 1070,
+    "review": "Estoy tomando el producto, lo pedí en cuanto leí el artículo. Es bastante barato, pero me permite oír con más claridad. Me siento como si hubiera nacido de nuevo. ¡Se lo recomiendo a todos!",
+    "user": {
+      "name": "Rosa García",
+      "age": 32
+    }
+  },
+  {
+    "id": 1070,
+    "review": "Me parece extraño: 'únicamente 28 días, y su audición mejorará'...",
+    "user": {
+      "name": "Raul Ravelino",
+      "age": 45
+    }
+  },
+  {
+    "id": 1070,
+    "review": "Cuando un instituto realiza un estudio toman algún período de tiempo y observan su comportamiento El tiempo promedio para conseguir los resultados es de 28 días. ¡Este producto es simplemente impresionante! He pedido uno para mí.",
+    "user": {
+      "name": "Gloria Sánchez",
+      "age": 27
+    }
+  },
+  {
+    "id": 1070,
+    "review": "Llevo dos semanas tomando Volumin. Vale la pena. Ahora no tengo que usar aparatos auditivos porque oigo mejor sin ellos. Puedo escucharme a mí, todo es más claro y entiendo rápidamente. Se acabaron los incómodos aparatos.",
+    "user": {
+      "name": "Diego Mejía",
+      "age": 32
+    }
+  },
+  {
+    "id": 1072,
+    "review": "Con la edad, mi visión se deterioró notablemente. Empecé a ver muy mal en la distancia, me detuve a reconocer amigos en la calle, porque no podía distinguir sus rostros – las imágenes se mezclaban. Al ir al oftalmólogo, me dijo que comprara gafas, que empezara a vigilar lo que comía y que hiciera gimnasia especial para los ojos. También me recomendó usar OPTICOMPLEX porque mejoraría el efecto del resto de los procedimientos y preservaría mi visión. Hace apenas una semana terminé el tratamiento. El efecto sigue e incluso parece que la visión ha mejorado. Asegúrese de repetir el curso de OPTICOMPLEX más de una vez.",
+    "user": {
+      "name": "Luis",
+      "age": 59
+    }
+  },
+  {
+    "id": 1072,
+    "review": "Mi visión comenzó a deteriorarse hace un par de años. El médico dijo que era el síndrome del ojo seco causado por estar constantemente frente a la computadora. Me encanta mi trabajo y no planeo cambiar el tipo de actividad, pero no quiero quedarme ciega en absoluto. Después de consultar con un oftalmólogo, seguí estrictamente y sigo todas sus recomendaciones, incluida el uso regular de suplementos alimentarios como OPTICOMPLEX. No tengo más problemas de resequedad, ni siquiera dolores de cabeza por tensión visual, han desaparecido.",
+    "user": {
+      "name": "María",
+      "age": 43
+    }
+  },
+  {
+    "id": 1072,
+    "review": "Literalmente el año pasado empecé a estar más pendiente de mi salud. Visité a todos los médicos, me sometí a un examen completo, comencé a controlar mi dieta y a hacer todos los ejercicios físicos necesarios. Quiero mantenerme en forma el mayor tiempo posible. Por otro lado, me preocupa el problema de la visión. Nunca fue perfecta, pero temo seriamente un mayor deterioro. Todos en mi familia usan gafas de forma permanente. Me recomendaron usar OPTICOMPLEX. Me he tomado bien el curso, puedo decir que este suplemento funciona perfectamente.",
+    "user": {
+      "name": "Alejandro",
+      "age": 36
+    }
+  },
+  {
+    "id": 1073,
+    "review": "Estoy muy contento de haber podido comprar este producto con un descuento. Espero que no suba el precio porque el producto es muy bueno.",
+    "user": {
+      "name": "Félix",
+      "age": 36
+    }
+  },
+  {
+    "id": 1073,
+    "review": "Mi médico me dijo que debía tomar precauciones tomando un suplemento para los ojos todos los días. Cuando llegó el momento de comprar mi suplemento para los ojos normal, decidí conectarme en línea y ver qué se ofrecía además de los que estaban en las tiendas. Luego encontré este sitio web y estaba interesado en probar Visiorax. He tomado estas gotas por un tiempo. En mi último examen de la vista, el especialista se sorprendió. Le mostré este producto. Después de examinarlo, me dijo que siguiera tomándolo porque creía que me estaba ayudando mucho. Recomiendo Visiorax.",
+    "user": {
+      "name": "Jose",
+      "age": 43
+    }
+  },
+  {
+    "id": 1073,
+    "review": "Realmente ayuda cuando uso mi teléfono y iPad durante el día. Mi ojo seco está mejor después de usar este producto.",
+    "user": {
+      "name": "Manuel",
+      "age": 52
+    }
+  },
+  {
+    "id": 1074,
+    "review": "Mi visión iba disminuyendo durante años. No prestaba atención a esto, pero en algún momento cayó tanto que mi ojo derecho casi dejó de ver. Ya sabes, soy pianista, hago música desde la infancia, por supuesto, sé tocar sin mirar, pero es mucho más fácil tocar con las notas. ¿Qué pasa si no veo esas notas? Gafas y lentes no me ayudaban: después de llevarlas tenía una terrible migraña. Desesperada, consulté a un médico, me dijo que no había nada mejor que Ocuvin Forte. No esperaba el milagro de la curación, pero aún así decidí pedir Ocuvin Forte. Imagínate, después del primer curso ¡empecé a ver mucho mejor! ¡En la próxima cita con el médico resultó que mi visión ha mejorado significativamente! ¡Mi médico sonrió y dijo que la visión va a mejorar aún más! ¡Dios mío, me alegro tanto! ¡Voy a pedir Ocuvin Forte más!",
+    "user": {
+      "name": "MARÍA LÓPEZ",
+      "age": 34
+    }
+  },
+  {
+    "id": 1075,
+    "review": "Soy programador y el trabajo constante delante de la pantalla ha dañado gravemente mi visión. Llegué a tal punto que empecé a ver todo borroso. Estaba constantemente atormentado por los dolores de cabeza debido a la tensión en los ojos. Me di cuenta de la gravedad de la situación cuando ya no podía trabajar más, mis ojos ya no podían discernir las letras pequeñas en la pantalla. Me tomé unas vacaciones y pedí Focus Clear. Comencé a tomar este producto y le di a mis ojos 2 semanas de descanso del ordenador. También estuve haciendo gimnasia ocular 15 minutos todos los días. Naturalmente, me impresionaron los resultados. ¡Ahora puedo ver todo muy claro! ¡De ahora en adelante, siempre voy a cuidar mi visión!",
+    "user": {
+      "name": "Pedro Escobar",
+      "age": 44
+    }
+  },
+  {
+    "id": 1076,
+    "review": "¡Diría sin exagerar que es el mejor tratamiento de ojos que he probado! No se trata sólo de vitaminas, sino de todo un complejo para la visión, que repone todas las sustancias necesarias en los vasos oculares, hidrata los ojos y, en consecuencia, mejora la visión.",
+    "user": {
+      "name": "María",
+      "age": 47
+    }
+  },
+  {
+    "id": 1076,
+    "review": "Pedí varios paquetes a la vez para 2 personas. Me tomé un descanso de 3 meses entre tratamientos. Pude sentir la mejora casi inmediatamente. En primer lugar, mis ojos se humedecieron, se deshicieron de toda la supuración y la sequedad. Ya había olvidado lo cómodo que se sentía)",
+    "user": {
+      "name": "Daniela",
+      "age": 36
+    }
+  },
+  {
+    "id": 1078,
+    "review": "Muchas gracias por tu recomendación. Compré este spray para mí y funciona increíble. Por supuesto, no es fácil, pero me estoy esforzando mucho. También encontré un pasatiempo como dijiste y ya no tengo tanto tiempo para pensar en cigarrillos.",
+    "user": {
+      "name": "Flor",
+      "age": 32
+    }
+  },
+  {
+    "id": 1078,
+    "review": "He fumado uno o dos paquetes al día (más a veces) durante los últimos 30 años. He intentado dejar de fumar varias veces (para ser justos, por lo general trate de dejar de fumar sin ningún tipo de ayuda, de golpe) , pero siempre he fallado. Por triste que sea decirlo, me encanta fumar... pero también llegué al punto en que odiaba ser un esclavo de la adicción que trae consigo, sin mencionar el costo. no sería capaz de hacerlo sin ayuda, investigué los diferentes métodos para dejar de fumar. Estoy seguro de que funciona para algunas personas, así que no puedo juzgar aquí, simplemente no me pareció adecuado. Encontré este aerosol y me era demasiado difícil de creer . pero decidí intentarlo de todos modos. Tenía muchas ganas de dejarlo. También usé un dispositivo que pone pinchazos en el filtro para reducir la ingesta de nicotina, así como palillos de dientes con sabor a menta para ayudar con la fijación de la mano a la boca, pero realmente creo que fue el spray el que hizo la diferencia . Todavía quiero fumar a veces, pero es más un deseo que una necesidad. Estoy tan agradecida de haberme encontrado con esto y de que me ayudó a dejar un hábito de 30 años que probablemente me estaba matando. Sin efectos secundarios, aparte de algunos sueños vívidos. Tienes que querer dejar de fumar, y tienes que esforzarte un poco por tu cuenta.",
+    "user": {
+      "name": "Carlos",
+      "age": 46
+    }
+  },
+  {
+    "id": 1079,
+    "review": "Sí, de hecho, los métodos actuales de tratamiento de la diabetes no garantizan en absoluto que todo vaya a estar bien. Veo a un médico todos los meses pero, de vez en cuando, tengo convulsiones hipoglucémicas. Intentaré combinar la terapia con DIOLIX. Espero que al menos así pueda por fin empezar a vivir en paz, sin miedo a desmayarme en algún lugar o en una tienda o del metro.",
+    "user": {
+      "name": "Carolina Roldán",
+      "age": 41
+    }
+  },
+  {
+    "id": 1080,
+    "review": "Gracias en nombre de mi madre, Antonia. Sólo Keto Slim la ayudó a perder 18 kg de peso. Ella es diabética, todas las dietas de adelgazamiento están contraindicadas y hacer ejercicio le resulta difícil. ¡Le has devuelto la vida!",
+    "user": {
+      "name": "Lorella",
+      "age": 32
+    }
+  },
+  {
+    "id": 1080,
+    "review": "¡Eso es impresionante! ¡¡Perdí 6 kg en 2 semanas!! Al tener un trabajo sedentario, no me preocupo por la dieta. ¡Gracias! Keto Slim realmente ayuda a perder peso",
+    "user": {
+      "name": "Victoria",
+      "age": 31
+    }
+  },
+  {
+    "id": 1081,
+    "review": "Utilizo Meduslim desde hace casi 3 meses y este suplemento no deja de sorprenderme. ¡Antes tenía problemas para perder peso, pero después de usar Meduslim he perdido casi 4 kilos!",
+    "user": {
+      "name": "Ana",
+      "age": 21
+    }
+  },
+  {
+    "id": 1081,
+    "review": "Utilicé Meduslim por primera vez por consejo de mi pareja. Pero nunca hubiera imaginado estos resultados. ¡Gracias a él me deshice de la grasa superflua del abdomen y ya estoy listo para el verano!",
+    "user": {
+      "name": "Mario",
+      "age": 33
+    }
+  },
+  {
+    "id": 1081,
+    "review": "Comencé a aprovechar las maravillosas propiedades de la piperina tras acudir a un dietista. ¡Este es el segundo suplemento con piperina que uso, pero fue Meduslim el que hizo que mi balanza comenzar a moverse! En cuanto a su composición es sin lugar a dudas un producto líder.",
+    "user": {
+      "name": "Mónica",
+      "age": 27
+    }
+  },
+  {
+    "id": 1081,
+    "review": "¡La piperina de este producto parece funcionar mucho mejor que la de la competencia! Además, las cápsulas no causan las molestias estomacales desagradables que todos conocemos - supongo que esto probablemente se deba a las Meduslim. Gracias a Meduslim ya he perdido 8 kg, y utilizo el suplemento desde hace 3 meses. ¡Genial y seguro!",
+    "user": {
+      "name": "Marta",
+      "age": 24
+    }
+  },
+  {
+    "id": 1082,
+    "review": "La gel FLEXUMGEL me ayudó mucho con el trauma de la articulación de la rodilla después del entrenamiento. La rodilla estaba inflamada, me dolía mucho, prácticamente no podía mover la pierna. Gracias a la ayuda de FLEXUMGEL, después de 4 días volví al trabajo, pudiendo andar desde el primer día de aplicación.",
+    "user": {
+      "name": "María",
+      "age": 31
+    }
+  },
+  {
+    "id": 1082,
+    "review": "Antes me dolía mucho la espalda, osteocondrósis, que a mi edad es muy frecuente. Mi mujer encontró FLEXUMGEL en internet. Se convirtió en mi salvación: antes, a veces, andaba encorvado desde la mañana, pero ahora estoy bien. Y lo más importante es que el dolor de espalda desapareció.",
+    "user": {
+      "name": "Miguel",
+      "age": 58
+    }
+  },
+  {
+    "id": 1082,
+    "review": "Una vez tuve una lesión en el tobillo, los médicos me dijeron que el tratamiento iba a ser largo. Pero tuve suerte al comprar FLEXUMGEL y en la primera semana, el tobillo se recuperó, el dolor desapareció, ando con normalidad, me dieron el alta. Ahora lo usa toda nuestra familia: ayuda contra el dolor de espalda y articular.",
+    "user": {
+      "name": "Esperanza",
+      "age": 35
+    }
+  }
+]

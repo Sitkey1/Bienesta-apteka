@@ -1,40 +1,19 @@
 .hero {
-  padding-top: 20px;
   img {
     width: 37px;
     height: auto;
   }
-  .search-box {
-    margin-bottom: 15px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    .input-box {
-      position: relative;
-      width: 100%;
-    }
-    svg {
-      position: absolute;
-      left: 6px;
-      top: 15px;
-      fill: #7e7e7e;
-    }
-    input {
-      padding: 15px 15px 15px 25px;
-      width: 93%;
-      border-radius: 10px;
-      border: navajowhite;
-    }
-  }
+
   .link-box {
+    padding: 0 20px;
     display: flex;
     flex-direction: column;
     text-align: center;
   }
   .link-box a {
-    padding: 13px 10px;
+    padding: 10px;
     margin-bottom: 10px;
-    font-size: 30px;
+    font-size: 28px;
     font-weight: bold;
     color: #fff;
     background-image: linear-gradient(#426a52, #588d6e);

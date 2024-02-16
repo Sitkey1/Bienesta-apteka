@@ -1,0 +1,54 @@
+.category-section {
+  padding-bottom: 100px;
+  span {
+    color: #5b5b5b;
+  }
+  li {
+    margin-bottom: 20px;
+    display: flex;
+    .img-box {
+      margin-right: 10px;
+      max-width: 145px;
+      height: 145px;
+      background-color: #fff;
+      border: 1px solid #cacaca;
+      border-radius: 15px;
+    }
+    .wrapper-box {
+      padding: 5px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      .oldprice {
+        font-size: 12px;
+        text-align: end;
+        text-decoration: line-through;
+      }
+      .newprice {
+        margin-bottom: 10px;
+        font-weight: bold;
+        font-size: 15px;
+        text-align: end;
+      }
+      button {
+        margin-top: auto;
+        padding: 10px;
+        color: #fff;
+        text-align: center;
+        font-weight: bold;
+        font-size: 12px;
+        background-image: linear-gradient(#426a52, #588d6e);
+        border-radius: 10px;
+      }
+      button:focus {
+        background-image: linear-gradient(#619977, #60b884);
+      }
+      button:hover {
+        background-image: linear-gradient(#619977, #60b884);
+      }
+      button:active {
+        background-image: linear-gradient(#619977, #60b884);
+      }
+    }
+  }
+}

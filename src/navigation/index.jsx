@@ -21,6 +21,12 @@ export const router = createBrowserRouter([
   {
     path: routeNames.categories,
     element: <CategoriesPages />,
+    // children: [
+    //   {
+    //     path: ":id",
+    //     element: <CategoryPage />,
+    //   },
+    // ],
   },
   {
     path: routeNames.basket,
@@ -29,29 +35,32 @@ export const router = createBrowserRouter([
   {
     path: routeNames.information,
     element: <InformationPage />,
+    children: [
+      {
+        path: routeNames.contacts,
+        element: <ContactsPage />,
+      },
+      // {
+      //   path: routeNames.faq,
+      //   element: <FaqPage />,
+      // },
+      // {
+      //   path: routeNames.policy,
+      //   element: <PolicyPage />,
+      // },
+      // {
+      //   path: routeNames.news,
+      //   element: <NewsPage />,
+      // },
+    ],
   },
-  {
-    path: routeNames.contacts,
-    element: <ContactsPage />,
-  },
-  {
-    path: routeNames.faq,
-    element: <FaqPage />,
-  },
-  {
-    path: routeNames.policy,
-    element: <PolicyPage />,
-  },
-  {
-    path: routeNames.news,
-    element: <NewsPage />,
-  },
-  {
-    path: `${routeNames.categories}/:id`,
-    element: <CategoryPage />,
-  },
-  {
-    path: `${routeNames.categories}/:id/:id`,
-    element: <ProductPage />,
-  },
+
+  // {
+  //   path: `${routeNames.categories}/:id`,
+  //   element: <CategoryPage />,
+  // },
+  // {
+  //   path: `${routeNames.categories}/:id/:id`,
+  //   element: <ProductPage />,
+  // },
 ]);

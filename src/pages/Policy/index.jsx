@@ -1,7 +1,11 @@
+import "./style.scss";
+
 export const PolicyPage = () => {
   return (
-    <main>
-      <span>Políticas de Privacidad</span>
-    </main>
+    <section className="policy-section">
+      <div className="container">
+        <h2 className="title-section">Políticas de Privacidad</h2>
+      </div>
+    </section>
   );
 };

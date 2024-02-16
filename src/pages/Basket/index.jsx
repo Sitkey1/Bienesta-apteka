@@ -1,12 +1,9 @@
-import { Header } from "../../components/Header";
+import "./style.scss";
 
 export const BasketPage = () => {
   return (
-    <main>
-      <div className="container">
-        <span>Basket</span>
-        <Header />
-      </div>
-    </main>
+    <div className="container">
+      <span>Basket</span>
+    </div>
   );
 };

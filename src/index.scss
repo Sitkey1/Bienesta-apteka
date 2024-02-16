@@ -1,8 +1,8 @@
 body {
   margin: 0;
-  background-image: url(image/body-back.png);
+  background-image: url("./../public/image/body-back.png");
   background-repeat: no-repeat;
-  background-size: 100% 100vh;
+  background-size: 100% 100%;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
@@ -32,8 +32,13 @@ p {
 }
 h1,
 h2,
-h3 {
+h3,
+h4 {
   margin: 0;
+}
+
+section {
+  padding-top: 20px;
 }
 img {
   max-width: 100%;
@@ -55,4 +60,15 @@ img {
   margin: 0 auto;
   max-width: 1200px;
   padding: 0 15px;
+}
+.section {
+  margin-top: 80px;
+  background-color: #fff;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+.title-section {
+  padding-top: 10px;
+  text-align: center;
+  font-size: 30px;
 }

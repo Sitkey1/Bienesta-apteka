@@ -7,17 +7,16 @@ export const Header = () => {
     <header>
       <div className="container">
         <div className="nav">
-          <Link to={routeNames.main} className="img-1">
+          <Link replace to={routeNames.main} className="img-1">
             HOGAR
           </Link>
-
-          <Link to={routeNames.categories} className="img-2">
+          <Link replace to={routeNames.categories} className="img-2">
             CATEGORÍAS
           </Link>
-          <Link to={routeNames.basket} className="img-3">
+          <Link replace to={routeNames.basket} className="img-3">
             CARRITO
           </Link>
-          <Link to={routeNames.information} className="img-4">
+          <Link replace to={routeNames.information} className="img-4">
             INFORMACIÒN
           </Link>
         </div>
