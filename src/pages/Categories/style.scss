@@ -1,6 +1,5 @@
 .categories-section {
   ul {
-    margin-bottom: 70px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -13,14 +12,13 @@
         width: 100%;
       }
       a {
-        position: absolute;
-        left: 10px;
-        top: -188px;
-        right: 0;
-        bottom: 0;
-        text-align: start;
         font-size: 18px;
         font-weight: bold;
+      }
+      span {
+        position: absolute;
+        top: 8px;
+        left: 15px;
       }
     }
   }

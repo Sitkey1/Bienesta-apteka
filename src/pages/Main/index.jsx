@@ -4,6 +4,7 @@ import { Hero } from "../../components/Hero";
 import data from "../../data/products.json";
 import { routeNames } from "../../navigation/routeNames";
 import "./style.scss";
+import { BasketStore } from "../../BasketStore";
 
 export const MainPage = () => {
   // const navigate = useNavigate();
@@ -20,6 +21,7 @@ export const MainPage = () => {
           <img src={require(`./images/oferta2.png`)} alt="category" />
         </li>
       </ul>
+
       <ul className="product-slider list-reset">
         {sliderData.map((el) => (
           <li key={el.id}>
@@ -30,9 +32,12 @@ export const MainPage = () => {
             <span className="subtitle">{el.subDescr}</span>
             <span className="oldprice">{el.oldPrice} MXN</span>
             <span className="newprice">{el.price} MXN</span>
-            <Link state={el} to={routeNames.product}>
+            <button className="btn-reset" onClick={() => BasketStore.add(el)}>
               AGREGAR
-            </Link>
+            </button>
+            {/* <Link state={el} to={el.title}>
+              AGREGAR
+            </Link> */}
           </li>
         ))}
       </ul>

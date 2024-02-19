@@ -24,17 +24,17 @@ export const CategoriesPages = () => {
       <div className="container">
         <SearchBox />
         <ul className="list-reset ">
-          {categories.map((el, i) => {
+          {categories.map((el) => {
             return (
-              // TODO: Почему то не работает если обернуть Link в li
-              <Link
-                key={el.id}
-                to={el}
-                state={products.filter((item) => item.type === el)}
-              >
-                <img src={require(`./images/${el}.png`)} alt="category" />
-                {el}
-              </Link>
+              <li key={Math.random()}>
+                <Link
+                  to={el}
+                  state={products.filter((item) => item.type === el)}
+                >
+                  <img src={require(`./images/${el}.png`)} alt="category" />
+                  <span> {el}</span>
+                </Link>
+              </li>
             );
           })}
         </ul>

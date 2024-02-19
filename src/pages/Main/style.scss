@@ -44,13 +44,13 @@
 
 .product-slider {
   display: flex;
-  flex-direction: row;
-  overflow-x: hidden;
   background-color: #fff;
   li {
     position: relative;
     display: flex;
     flex-direction: column;
+    white-space: nowrap;
+    flex-shrink: 0;
     padding: 10px 20px;
     animation: go-left-right 8s infinite linear alternate;
 
@@ -60,20 +60,21 @@
       text-align: left;
     }
     .subtitle {
+      margin-bottom: 5px;
       font-size: 10px;
     }
     .oldprice {
-      font-size: 12px;
+      font-size: 10px;
       text-align: end;
       text-decoration: line-through;
     }
     .newprice {
       margin-bottom: 10px;
       font-weight: bold;
-      font-size: 15px;
+      font-size: 12px;
       text-align: end;
     }
-    a {
+    button {
       padding: 5px 10px;
       color: #fff;
       text-align: center;
@@ -81,14 +82,15 @@
       font-size: 12px;
       background-image: linear-gradient(#426a52, #588d6e);
       border-radius: 10px;
+      box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.5);
     }
-    a:focus {
+    button:focus {
       background-image: linear-gradient(#619977, #60b884);
     }
-    a:hover {
+    button:hover {
       background-image: linear-gradient(#619977, #60b884);
     }
-    a:active {
+    button:active {
       background-image: linear-gradient(#619977, #60b884);
     }
   }
@@ -102,10 +104,16 @@
   }
 
   .img-box {
+    padding: 10px;
     margin-bottom: 5px;
     width: 100px;
     height: 100px;
     border: 1px solid #cacaca;
     border-radius: 10px;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
   }
 }

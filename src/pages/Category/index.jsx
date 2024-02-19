@@ -1,4 +1,4 @@
-import { useLocation, useNavigate } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import "./";
 import { SearchBox } from "../../components/Search";
 import "./style.scss";
@@ -13,27 +13,18 @@ export const CategoryPage = (props) => {
         <ul className="list-reset">
           {state.map((el) => {
             return (
-              <li key={Math.random()}>
+              <li key={el.id}>
                 <div className="img-box">
                   <img src={`/image/${el.img}`} alt="product" />
                 </div>
                 <div className="wrapper-box">
-                  <h4>{el.title}</h4>
+                  <Link to={el.title} state={el}>
+                    <h4>{el.title}</h4>
+                  </Link>
                   <span>{el.subDescr}</span>
                   <span className="oldprice">{el.oldPrice} MXN</span>
                   <span className="newprice">{el.price} MXN</span>
-                  <button
-                    className="btn-reset"
-                    onClick={() =>
-                      navigate(el.title, {
-                        state: {
-                          data: el,
-                        },
-                      })
-                    }
-                  >
-                    AGREGAR
-                  </button>
+                  <button className="btn-reset">AGREGAR</button>
                 </div>
               </li>
             );

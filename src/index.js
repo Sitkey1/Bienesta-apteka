@@ -30,7 +30,12 @@ root.render(
             path={`${routeNames.categories}/:id`}
             element={<CategoryPage />}
           />
-          <Route path={routeNames.product} element={<ProductPage />} />
+          <Route
+            path={`${routeNames.categories}/:id/:id`}
+            element={<ProductPage />}
+          />
+
+          <Route path={":id"} element={<ProductPage />} />
           <Route path={routeNames.basket} element={<BasketPage />} />
           <Route path={routeNames.information} element={<InformationPage />} />
           <Route path={routeNames.contacts} element={<ContactsPage />} />
