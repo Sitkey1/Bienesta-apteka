@@ -1,11 +1,15 @@
-import { Link, useLocation, useNavigate } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import "./";
 import { SearchBox } from "../../components/Search";
 import "./style.scss";
+import { BasketStore } from "../../Store/BasketStore";
+import { useState } from "react";
 
 export const CategoryPage = (props) => {
   const { state } = useLocation();
-  const navigate = useNavigate();
+
+  const [basket, setBasket] = useState(BasketStore.getAll());
+
   return (
     <section className="category-section">
       <div className="container">
@@ -24,7 +28,22 @@ export const CategoryPage = (props) => {
                   <span>{el.subDescr}</span>
                   <span className="oldprice">{el.oldPrice} MXN</span>
                   <span className="newprice">{el.price} MXN</span>
-                  <button className="btn-reset">AGREGAR</button>
+                  <button
+                    onClick={() => {
+                      BasketStore.add(el);
+                      setBasket(BasketStore.getAll());
+                    }}
+                    className="btn-reset"
+                    disabled={
+                      basket ?? [].find((item) => item.id === el.id)
+                        ? true
+                        : false
+                    }
+                  >
+                    {basket ?? [].find((item) => item.id === el.id)
+                      ? "уже есть "
+                      : "AGREGAR"}
+                  </button>
                 </div>
               </li>
             );

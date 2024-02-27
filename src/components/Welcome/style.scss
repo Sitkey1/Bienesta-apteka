@@ -1,0 +1,15 @@
+.welcome-section {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: #fff;
+  z-index: 10;
+
+  img {
+    margin: 0 auto;
+    display: block;
+    padding-top: 50%;
+  }
+}

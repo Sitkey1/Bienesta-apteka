@@ -1,71 +1,76 @@
-import { useCallback, useEffect, useMemo, useState } from "react";
+import { useState } from "react";
 import "./style.scss";
-import { BasketStore } from "../../BasketStore";
-import products from "../../data/products.json";
+import { BasketStore } from "../../Store/BasketStore";
+import { Form } from "./components/Form";
 
-// TODO: странное поведение счетчика , при увеличении илии уменьшении количества
-const countProducts = () => {
-  var count = {};
-  BasketStore.getAll().forEach(function (i) {
-    count[i.title] = (count[i.title] || 0) + 1;
+const countProducts = () =>
+  Object.values(
+    BasketStore.getAll().reduce((p, v) => {
+      const old = p[v.title];
+      if (!old) p[v.title] = { ...v, count: 1 };
+      else if (old.sort > v.sort) p[v.title] = { ...v, count: old.count + 1 };
+      else p[v.title].count++;
+      return p;
+    }, {})
+  );
+
+const checkTotalPrice = () => {
+  let total = 0;
+  BasketStore.getAll().forEach((el) => {
+    total += Number(el.price);
   });
-  return count;
+  return total;
 };
 
 export const BasketPage = () => {
-  const [basket, setBasket] = useState(BasketStore.getAll());
+  const [basket, setBasket] = useState(countProducts());
+
   return (
     <div>
       <section className="basket-section">
         <div className="container">
           <ul className="list-reset">
-            {/* TODO: Подумать как сделать проще */}
-            {basket
-              ?.filter((v, i, a) => a.findIndex((v2) => v2.id === v.id) === i)
-              ?.map((el, index) => {
-                return (
-                  <li key={Math.random()}>
-                    <div className="image-box">
-                      <img src={`/image/${el.img}`} alt="product" />
-                    </div>
-                    <div className="wrapper-box">
-                      <h4>{el.title}</h4>
-                      <span className="descr">{el.subDescr}</span>
-                      <div className="box">
-                        <span className="price">{el.price} MXN</span>
-                        <div className="counter">
-                          <button
-                            className="btn-reset"
-                            onClick={() => {
-                              BasketStore.remove(index);
-                              setBasket(BasketStore.getAll());
-                            }}
-                          >
-                            &minus;
-                          </button>
-                          <span>{countProducts()[el.title]}</span>
-                          <button
-                            className="btn-reset"
-                            onClick={() => {
-                              BasketStore.add(el);
-                              setBasket(BasketStore.getAll());
-                            }}
-                          >
-                            +
-                          </button>
-                        </div>
+            {basket.map((element) => {
+              return (
+                <li key={element.id}>
+                  <div className="image-box">
+                    <img src={`/image/${element.img}`} alt="product" />
+                  </div>
+                  <div className="wrapper-box">
+                    <h4>{element.title}</h4>
+                    <span className="descr">{element.subDescr}</span>
+                    <div className="box">
+                      <span className="price">{element.price} MXN</span>
+                      <div className="counter">
+                        <button
+                          onClick={() => {
+                            BasketStore.remove(element);
+                            setBasket(countProducts());
+                          }}
+                          className="btn-reset"
+                        >
+                          &minus;
+                        </button>
+                        <span>{element.count}</span>
+                        <button
+                          onClick={() => {
+                            BasketStore.add(element);
+                            setBasket(countProducts());
+                          }}
+                          className="btn-reset"
+                        >
+                          +
+                        </button>
                       </div>
                     </div>
-                  </li>
-                );
-              })}
-            <span className="total-price">importe total: </span>
-            <form action="#" className="form">
-              <span>realización del pedido</span>
-              <input type="text" placeholder="Nombre" required />
-              <input type="number" placeholder="Número de teléfono" required />
-              <button className="btn-reset">comprar</button>
-            </form>
+                  </div>
+                </li>
+              );
+            })}
+            <span className="total-price">
+              importe total: {checkTotalPrice()}
+            </span>
+            <Form basket={basket} />
           </ul>
         </div>
       </section>

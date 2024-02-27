@@ -1,9 +1,13 @@
 import { useLocation } from "react-router-dom";
 import "./style.scss";
+import { useRef, useState } from "react";
 
 export const ProductPage = () => {
   const { state } = useLocation();
-  const { title, type, subDescr, oldPrice, price, descr, img } = state;
+  const { title, subDescr, oldPrice, price, descr, img } = state;
+  const [showSendRewiewModal, setShowSendRewiewModal] = useState(false);
+  const [showSuccessRewiewModal, setShowSuccessRewiewModal] = useState(false);
+  const formRef = useRef(null);
   return (
     <section className="product-section">
       <div className="container">
@@ -27,47 +31,93 @@ export const ProductPage = () => {
               <span>description</span>
               <p className="descr">{descr}</p>
               <span>optiones</span>
-              <button className="btn-reset btn-rewiew">
+              <button
+                onClick={() => setShowSendRewiewModal(true)}
+                className="btn-reset btn-rewiew"
+              >
                 escribir una opinión
               </button>
               {/* TODO: отзывы из rewiew.json */}
               <p className="descr"></p>
             </div>
-            <div className="modal-rewiews">
-              <div className="modal-overlay">
-                <div className="modal-form">
-                  <span>nueva opinion</span>
-                  <form action="#" className="form">
-                    <textarea
-                      type="text"
-                      placeholder="nueva opinion.."
-                      required
-                    />
-                    <label>
-                      <input type="text" required />
-                      <span>Nombre</span>
-                    </label>
-                    <label>
-                      <input type="tel" required />
-                      <span>Edad</span>
-                    </label>
-                    <label>
-                      <input type="email" required />
-                      <span>Сorreo electrónico</span>
-                    </label>
-                    <button className="btn-reset">publicar</button>
-                  </form>
+            {showSendRewiewModal ? (
+              <div className="modal-send-rewiew">
+                <div
+                  //  Закрыттиие модального окна по нажатию на overlay
+                  onClick={(e) => {
+                    if (e.target.className === "modal-overlay") {
+                      setShowSendRewiewModal(false);
+                    }
+                  }}
+                  className="modal-overlay"
+                >
+                  <div className="modal-form">
+                    <span>nueva opinion</span>
+                    <form ref={formRef} action="#" className="form">
+                      <textarea
+                        type="text"
+                        placeholder="nueva opinion.."
+                        required
+                      />
+                      <label>
+                        <input type="text" required />
+                        <span>Nombre</span>
+                      </label>
+                      <label>
+                        <input type="tel" required />
+                        <span>Edad</span>
+                      </label>
+                      <label>
+                        <input type="email" required />
+                        <span>Сorreo electrónico</span>
+                      </label>
+                      <button
+                        // не срабаттывает кнопка
+                        onClick={(e) => {
+                          e.preventDefault();
+                          console.log(e.target.validity);
+                          // Используем useRef для того , чтобы проверить заполнены ли поля в форме
+                          // Сделано , чтобв проверять у инпут родной required
+                          const isValidForm = formRef.current.checkValidity();
+                          //TODO: Получииьт все поля формы для оттправки
+
+                          if (isValidForm) {
+                            setShowSuccessRewiewModal(true);
+                            setShowSendRewiewModal(false);
+                          }
+                        }}
+                        type="submit"
+                        className="btn-reset"
+                      >
+                        publicar
+                      </button>
+                    </form>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div className="modal-rewiews-answer">
-              <div className="modal-overlay-answer">
-                <div className="modal-answer">
-                  <span>su comentario ha sido enviado a moderación</span>
-                  <button className="btn-reset">atrás</button>
+            ) : null}
+            {showSuccessRewiewModal ? (
+              <div className="modal-success-send-rewiew">
+                <div
+                  onClick={(e) => {
+                    if (e.target.className === "modal-overlay") {
+                      setShowSendRewiewModal(false);
+                    }
+                  }}
+                  className="modal-overlay-answer"
+                >
+                  <div className="modal-answer">
+                    <span>su comentario ha sido enviado a moderación</span>
+                    <button
+                      onClick={() => setShowSuccessRewiewModal(false)}
+                      className="btn-reset"
+                    >
+                      atrás
+                    </button>
+                  </div>
                 </div>
               </div>
-            </div>
+            ) : null}
           </div>
         }
       </div>

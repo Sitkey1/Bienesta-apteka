@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import "./style.scss";
 import { routeNames } from "../../navigation/routeNames";
-
+//TODO: переименовать в TabBar
 export const Header = () => {
   return (
     <header>

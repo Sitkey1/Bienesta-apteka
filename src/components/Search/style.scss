@@ -21,3 +21,15 @@
     border: navajowhite;
   }
 }
+.search-list {
+  padding: 10px;
+  top: 80px;
+  width: 300px;
+  position: absolute;
+  background-color: #fff;
+  z-index: 10;
+  li {
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+}

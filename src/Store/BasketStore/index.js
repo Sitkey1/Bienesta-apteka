@@ -4,9 +4,9 @@ export const BasketStore = {
 
     localStorage.setItem("BASKET", JSON.stringify([...(basket ?? []), el]));
   },
-  remove: (index) => {
+  remove: (el) => {
     const basket = JSON.parse(localStorage.getItem("BASKET"));
-
+    const index = basket.findIndex((item) => item.id === el.id);
     basket.splice(index, 1);
     localStorage.setItem("BASKET", JSON.stringify(basket));
   },

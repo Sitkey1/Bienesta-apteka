@@ -1,18 +1,27 @@
-// import { useNavigate } from "react-router-dom";
-import { Link } from "react-router-dom";
+import { useEffect } from "react";
 import { Hero } from "../../components/Hero";
 import data from "../../data/products.json";
-import { routeNames } from "../../navigation/routeNames";
 import "./style.scss";
-import { BasketStore } from "../../BasketStore";
+import { BasketStore } from "../../Store/BasketStore";
+import { useState } from "react";
+import { Welcome } from "../../components/Welcome";
+import { WelcomeStore } from "../../Store/WelcomeStore";
 
 export const MainPage = () => {
-  // const navigate = useNavigate();
   const sliderData = [data[3], data[7], data[9], data[11], data[15]];
-  return (
+
+  const [welcome, hasWelcome] = useState(WelcomeStore.get() || false);
+  useEffect(() => {
+    setTimeout(() => {
+      hasWelcome(true);
+      WelcomeStore.set(true);
+    }, 1500);
+  }, []);
+  return !welcome ? (
+    <Welcome />
+  ) : (
     <div>
       <Hero />
-
       <ul className="ticker list-reset">
         <li>
           <img src={require(`./images/oferta1.png`)} alt="category" />
@@ -35,14 +44,9 @@ export const MainPage = () => {
             <button className="btn-reset" onClick={() => BasketStore.add(el)}>
               AGREGAR
             </button>
-            {/* <Link state={el} to={el.title}>
-              AGREGAR
-            </Link> */}
           </li>
         ))}
       </ul>
-
-      {/* <button onClick={() => navigate(routeNames.categories)}>go</button> */}
     </div>
   );
 };

@@ -2,7 +2,6 @@ import { Link } from "react-router-dom";
 import products from "../../data/products.json";
 import { SearchBox } from "../../components/Search";
 import "./style.scss";
-import { useState } from "react";
 
 const categories = [
   "salud",
