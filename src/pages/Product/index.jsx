@@ -1,13 +1,20 @@
 import { useLocation } from "react-router-dom";
 import "./style.scss";
 import { useRef, useState } from "react";
+import { BasketStore } from "../../Store/BasketStore";
+import RewiewsData from "../../data/reviews.json";
+import RewiewCard from "./rewiew";
 
 export const ProductPage = () => {
   const { state } = useLocation();
-  const { title, subDescr, oldPrice, price, descr, img } = state;
+  const { title, subDescr, oldPrice, price, descr, img, id, notAvailable } =
+    state;
   const [showSendRewiewModal, setShowSendRewiewModal] = useState(false);
   const [showSuccessRewiewModal, setShowSuccessRewiewModal] = useState(false);
   const formRef = useRef(null);
+  const [basket, setBasket] = useState(BasketStore.getAll());
+  const itemInBasket = (itemID) => basket.some((item) => item.id === itemID);
+  console.log(notAvailable);
   return (
     <section className="product-section">
       <div className="container">
@@ -26,7 +33,21 @@ export const ProductPage = () => {
                 <div className="newprice">{price} MXN</div>
               </div>
             </div>
-            <button className="btn-reset btn">AGREGAR</button>
+            <button
+              className="btn-reset btn"
+              onClick={() => {
+                BasketStore.add(state);
+                setBasket(BasketStore.getAll());
+              }}
+              disabled={itemInBasket(id) || notAvailable}
+            >
+              {notAvailable
+                ? "Товара нет в наличии"
+                : itemInBasket(id)
+                ? "уже есть"
+                : "AGREGAR"}
+              {/* {itemInBasket(id) ? "уже есть " : "AGREGAR"} */}
+            </button>
             <div className="descr-box">
               <span>description</span>
               <p className="descr">{descr}</p>
@@ -37,7 +58,12 @@ export const ProductPage = () => {
               >
                 escribir una opinión
               </button>
-              {/* TODO: отзывы из rewiew.json */}
+              {RewiewsData.map(
+                (rewiewData, index) =>
+                  rewiewData.id === id && (
+                    <RewiewCard rewiew={rewiewData} key={index} />
+                  )
+              )}
               <p className="descr"></p>
             </div>
             {showSendRewiewModal ? (

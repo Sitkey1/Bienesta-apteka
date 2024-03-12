@@ -4,11 +4,13 @@ import { SearchBox } from "../../components/Search";
 import "./style.scss";
 import { BasketStore } from "../../Store/BasketStore";
 import { useState } from "react";
+// import products from "../../data/products.json";
 
 export const CategoryPage = (props) => {
   const { state } = useLocation();
-
   const [basket, setBasket] = useState(BasketStore.getAll());
+
+  const itemInBasket = (itemID) => basket.some((item) => item.id === itemID);
 
   return (
     <section className="category-section">
@@ -34,15 +36,17 @@ export const CategoryPage = (props) => {
                       setBasket(BasketStore.getAll());
                     }}
                     className="btn-reset"
-                    disabled={
-                      basket ?? [].find((item) => item.id === el.id)
-                        ? true
-                        : false
-                    }
+                    disabled={itemInBasket(el.id) || el.notAvailable}
                   >
-                    {basket ?? [].find((item) => item.id === el.id)
-                      ? "уже есть "
+                    {el.notAvailable
+                      ? "Товара нет в наличи"
+                      : itemInBasket(el.id)
+                      ? "уже есть"
                       : "AGREGAR"}
+                    {/* {itemInBasket(el.id) ? "уже есть " : "AGREGAR"} */}
+                    {/* {basket ?? [].find((item) => item.id === el.id)
+                      ? "уже есть "
+                      : "AGREGAR"} */}
                   </button>
                 </div>
               </li>

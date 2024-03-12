@@ -6,6 +6,10 @@ import { BasketStore } from "../../Store/BasketStore";
 import { useState } from "react";
 import { Welcome } from "../../components/Welcome";
 import { WelcomeStore } from "../../Store/WelcomeStore";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/autoplay";
 
 export const MainPage = () => {
   const sliderData = [data[3], data[7], data[9], data[11], data[15]];
@@ -22,14 +26,33 @@ export const MainPage = () => {
   ) : (
     <div>
       <Hero />
-      <ul className="ticker list-reset">
+      <Swiper
+        spaceBetween={10}
+        modules={[Autoplay]}
+        pagination={{ clickable: true }}
+        slidesPerView={1}
+        autoplay={{
+          delay: 2500,
+          pauseOnMouseEnter: true,
+          disableOnInteraction: false,
+        }}
+        loop
+      >
+        <SwiperSlide>
+          <img src={require(`./images/oferta1.png`)} alt="category" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={require(`./images/oferta1.png`)} alt="category" />
+        </SwiperSlide>
+      </Swiper>
+      {/* <ul className="ticker list-reset">
         <li>
           <img src={require(`./images/oferta1.png`)} alt="category" />
         </li>
         <li>
           <img src={require(`./images/oferta2.png`)} alt="category" />
         </li>
-      </ul>
+      </ul> */}
 
       <ul className="product-slider list-reset">
         {sliderData.map((el) => (

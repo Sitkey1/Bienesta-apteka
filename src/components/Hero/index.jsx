@@ -1,5 +1,7 @@
+import { Link } from "react-router-dom";
 import { SearchBox } from "../Search";
 import "./style.scss";
+import { routeNames } from "../../navigation/routeNames";
 //TODO:  Убрать или преименовать в HeaderSearch
 export const Hero = () => {
   return (
@@ -7,10 +9,10 @@ export const Hero = () => {
       <div className="container">
         <SearchBox />
         <div className="link-box">
-          <a href="/">Contacto</a>
-          <a href="/">
+          <Link to={routeNames.contacts}>Contacto</Link>
+          <Link to={routeNames.contacts}>
             cómo hacer <br /> un pedido
-          </a>
+          </Link>
         </div>
       </div>
     </section>
