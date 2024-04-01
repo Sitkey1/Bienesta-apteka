@@ -42,11 +42,10 @@ export const ProductPage = () => {
               disabled={itemInBasket(id) || notAvailable}
             >
               {notAvailable
-                ? "Товара нет в наличии"
+                ? "notifiqueme cuando esté disponible"
                 : itemInBasket(id)
-                ? "уже есть"
+                ? "en la cesta"
                 : "AGREGAR"}
-              {/* {itemInBasket(id) ? "уже есть " : "AGREGAR"} */}
             </button>
             <div className="descr-box">
               <span>description</span>

@@ -57,6 +57,7 @@
   .descr-box {
     margin-top: 20px;
     span {
+      margin-top: 20px;
       display: inline-block;
       margin-bottom: 5px;
       font-size: 20px;
@@ -65,6 +66,8 @@
     .descr {
       padding-bottom: 15px;
       color: #5b5b5b;
+      height: 300px;
+      overflow: auto;
     }
     .btn-rewiew {
       margin-top: 15px;
@@ -78,7 +81,25 @@
       border-radius: 15px;
     }
   }
-
+  .rewiews-list {
+    li {
+      padding-bottom: 10px;
+      border-bottom: 1px solid #5f5858;
+    }
+    span {
+      color: #5f5858;
+      font-size: 12px;
+    }
+    p {
+      color: #5f5858;
+      font-size: 12px;
+      font-weight: bold;
+      line-height: 12px;
+    }
+    .name {
+      margin-right: 5px;
+    }
+  }
   .modal-send-rewiew {
     .modal-overlay {
       position: fixed;

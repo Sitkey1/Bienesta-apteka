@@ -1,4 +1,5 @@
 .categories-section {
+  padding-bottom: 100px;
   ul {
     display: flex;
     justify-content: space-between;
@@ -6,8 +7,8 @@
     li {
       margin-bottom: 20px;
       position: relative;
-      min-width: 175px;
-      height: 180px;
+      width: 165px;
+      height: auto;
       img {
         width: 100%;
       }

@@ -1,8 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.scss";
-import { BrowserRouter, Route, RouterProvider, Routes } from "react-router-dom";
-import { router } from "./navigation";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { routeNames } from "./navigation/routeNames";
 import { MainPage } from "./pages/Main";
 import { CategoriesPages } from "./pages/Categories";
@@ -13,7 +12,6 @@ import { FaqPage } from "./pages/Faq";
 import { PolicyPage } from "./pages/Policy";
 import { NewsPage } from "./pages/News";
 import { CategoryPage } from "./pages/Category";
-
 import { Layout } from "./components/Layout";
 import { ProductPage } from "./pages/Product";
 

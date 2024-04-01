@@ -21,12 +21,12 @@ export const CategoryPage = (props) => {
             return (
               <li key={el.id}>
                 <div className="img-box">
-                  <img src={`/image/${el.img}`} alt="product" />
+                  <Link to={el.title} state={el}>
+                    <img src={`/image/${el.img}`} alt="product" />
+                  </Link>
                 </div>
                 <div className="wrapper-box">
-                  <Link to={el.title} state={el}>
-                    <h4>{el.title}</h4>
-                  </Link>
+                  <h4>{el.title}</h4>
                   <span>{el.subDescr}</span>
                   <span className="oldprice">{el.oldPrice} MXN</span>
                   <span className="newprice">{el.price} MXN</span>
@@ -39,14 +39,10 @@ export const CategoryPage = (props) => {
                     disabled={itemInBasket(el.id) || el.notAvailable}
                   >
                     {el.notAvailable
-                      ? "Товара нет в наличи"
+                      ? "notifiqueme cuando esté disponible"
                       : itemInBasket(el.id)
-                      ? "уже есть"
+                      ? "en la cesta"
                       : "AGREGAR"}
-                    {/* {itemInBasket(el.id) ? "уже есть " : "AGREGAR"} */}
-                    {/* {basket ?? [].find((item) => item.id === el.id)
-                      ? "уже есть "
-                      : "AGREGAR"} */}
                   </button>
                 </div>
               </li>
